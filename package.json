@@ -1,5 +1,5 @@
 {
-  "name": "Node-rest-api",
+  "name": "Noderestapi",
   "version": "1.0.0",
   "description": "A Application for sql node connectivity",
   "main": "server.js",
