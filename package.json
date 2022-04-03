@@ -1,0 +1,34 @@
+{
+  "name": "Node-rest-api",
+  "version": "1.0.0",
+  "description": "A Application for sql node connectivity",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  
+  "keywords": [
+    "node",
+    "restapi"
+  ],
+  "author": "Ritesh Rastogi",
+  "license": "MIT",
+  "dependencies": {
+    "@yaireo/tagify": "^4.5.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",    
+    "mysql2": "^2.3.3",   
+    "react-confirm-box": "^1.2.0",
+    "select-pure": "^2.1.1-alpha.1",
+    "slugify": "^1.6.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
