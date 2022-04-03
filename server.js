@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-	origin: "http://localhost:3000",
+	origin: "https://xprtcenter.github.io/ReactAdminDashboardbyHtml/",
 };
 app.use(cors(corsOptions));
 
